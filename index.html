@@ -13,6 +13,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- AOS JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
 </head>
   <body>
 
@@ -45,8 +51,8 @@
   
 
 <!-- DL MY RESUME -->
-    <div class="container mt-4">
-      <a href="Untalan, Carlo - RESUME(1).pdf" class="button" download>
+    <div class="container mt-4" >
+      <a href="resume/Untalan, Carlo - RESUME(1).pdf" class="button" download>
         <span class="button__icon-wrapper">
           <svg
             viewBox="0 0 14 15"
@@ -95,7 +101,7 @@
       </nav>
 
 <!-- BACKGROUND -->
-      <div class="container background">
+      <div class="container background"  data-aos="fade-up">
         <p id="background">Background</p>
 
         <div class="row justify-content-start col-lg-8">
@@ -108,11 +114,11 @@
 
        <!-- SKILLS -->
        <div class="mt-5">
-        <article class="row justify-content-start" id="Skill">
+        <article class="row justify-content-start" id="Skill"  data-aos="slide-right">
           <div class="col-lg-4 col-sm-12 text-lg-start">
             <p id="skills" class="section-heading">Skills</p>
             <div class="skills-section">
-              <div class="skills-category">
+              <div class="skills-category" data-aos="slide-right">
                 <p class="skills-title">Programming Languages</p>
                 <ul class="skills-list">
                   <li>HTML</li>
@@ -124,7 +130,7 @@
                   <li>C#</li>
                 </ul>
               </div>
-              <div class="skills-category">
+              <div class="skills-category" data-aos="slide-right">
                 <p class="skills-title">Tools</p>
                 <ul class="skills-list">
                   <li>VS Code</li>
@@ -134,7 +140,7 @@
                   <li>GitHub</li>
                 </ul>
               </div>
-              <div class="skills-category">
+              <div class="skills-category"  data-aos="slide-right">
                 <p class="skills-title">Frameworks</p>
                 <ul class="skills-list">
                   <li>Bootstrap</li>
@@ -146,7 +152,8 @@
       </div>
 
  <!-- SKILLS --> 
-      <div class="project-container mt-5">
+
+      <div class="project-container mt-5" data-aos="fade-down">
         <p id="projects">Project</p>
         <blockquote class="blockquote projects">
           <p>Collaborated with <strong class="collab"><a href="https://www.facebook.com/nclnncvs">Nicole Ann Cuevas</a></strong> to create an online platform for a money lending company</p>
