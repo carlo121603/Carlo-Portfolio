@@ -23,3 +23,7 @@ document.querySelectorAll('header .nav-links a, .footer-links a').forEach(anchor
     }
   });
 });
+AOS.init({
+  duration: 1000, // Animation duration in ms
+  once: true, // Animation only happens once
+});
